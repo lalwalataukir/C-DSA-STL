@@ -11,21 +11,21 @@ int main()
     
     int n;
     cin >> n;
-    vector<bool> v(n+1, true);
+    vector<bool> isPrime(n+1, true);
     for (int i=2 ; i<= sqrt(n) ; i++)
     {
-        if (v[i])
+        if (isPrime[i])
         {
             for (int j = i*i ; j<= n ; j = j+i)
             {
-                v[j]=  false;
+                isPrime[j]=  false;
             }
         }
     }
 
     for (int i = 2 ; i<= n ; i++)
     {
-        if (v[i])
+        if (isPrime[i])
             cout << i << " " ;
     }
     
