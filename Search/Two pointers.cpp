@@ -3,7 +3,7 @@ using namespace std;
 #define M 1000000007
 #define ll long long
  
-bool isPresent(vector<int> &a, int l, int r, int sum)
+bool isPresent(vector<int> &a, int l, int r, int sum // O(n) time complexity
 {
     while(l < r)
     {
