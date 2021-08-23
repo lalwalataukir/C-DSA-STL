@@ -5,7 +5,7 @@ using namespace std;
 #define ld long double
 
 // theta(nlog(n)) time complexity
-// theta(n) auxilliary space
+// O(n) auxilliary space
 // stable sorting algo
 
 void merge(int a[], int low, int mid, int high)
