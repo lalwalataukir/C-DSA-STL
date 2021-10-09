@@ -202,7 +202,7 @@
 
 
     <--LOWER-BOUND>
-
+    // works only in sorted array and in O(logn) time
     // works for sorted array, vector only
     // returns an iterator pointing to the first
     // element which is not less than x 
@@ -222,6 +222,7 @@
 
 
     <--UPPER BOUND--> 
+    // works only in sorted array and in O(logn) time 	    
     // returns an iterator which points to an element which is 
     // just greater than x
     // arr[] -> {1, 5, 7, 7, 8, 10, 10, 10, 11, 11, 12} 

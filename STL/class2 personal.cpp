@@ -304,7 +304,7 @@ priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>> pq;
 
 <--DEQUE-->
 //similar to vector with extra push and pop operations
-dequeue<int> dq; // doubly-ended-queue
+deque<int> dq; // doubly-ended-queue
 // push_front() 
 // push_back() 
 // pop_front() 
